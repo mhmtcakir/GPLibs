@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F34B5631F2627D2005AD1CB /* XMAN.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F34B5621F2627D2005AD1CB /* XMAN.xib */; };
+		3F457BFC1E94FAC9003EE759 /* GPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F457BFB1E94FAC9003EE759 /* GPViewController.swift */; };
+		3F457BFE1E950D28003EE759 /* GPPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F457BFD1E950D28003EE759 /* GPPopupView.swift */; };
+		3F49CFEE1E93C9EB0023341F /* GPLibs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F49CFEC1E93C9EB0023341F /* GPLibs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F49D0051E93CA240023341F /* CustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49CFF51E93CA240023341F /* CustomActivityIndicatorView.swift */; };
+		3F49D0061E93CA240023341F /* GPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49CFF71E93CA240023341F /* GPAnimation.swift */; };
+		3F49D0071E93CA240023341F /* GPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49CFF91E93CA240023341F /* GPButton.swift */; };
+		3F49D0081E93CA240023341F /* GPButtonBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49CFFA1E93CA240023341F /* GPButtonBase.swift */; };
+		3F49D0091E93CA240023341F /* GPImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49CFFB1E93CA240023341F /* GPImageButton.swift */; };
+		3F49D00A1E93CA240023341F /* GPLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49CFFC1E93CA240023341F /* GPLoadingButton.swift */; };
+		3F49D00B1E93CA240023341F /* GPPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F49CFFE1E93CA240023341F /* GPPopupView.xib */; };
+		3F49D00C1E93CA240023341F /* GPPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49CFFF1E93CA240023341F /* GPPopupViewController.swift */; };
+		3F49D00D1E93CA240023341F /* GPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D0011E93CA240023341F /* GPTextField.swift */; };
+		3F49D00E1E93CA240023341F /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D0031E93CA240023341F /* UIExtensions.swift */; };
+		3F49D00F1E93CA240023341F /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49D0041E93CA240023341F /* UIHelper.swift */; };
+		3F49D0111E93CA5D0023341F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F49D0101E93CA5D0023341F /* Assets.xcassets */; };
+		3F5824C21E9E4A3800E8C440 /* GPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5824C11E9E4A3800E8C440 /* GPView.swift */; };
+		3F98CC931F389BCE00DEA71D /* GPTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98CC921F389BCE00DEA71D /* GPTextView.swift */; };
+		3FB559E01F262D1E00754E60 /* GPSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB559DD1F26296A00754E60 /* GPSegmentedControl.swift */; };
+		3FFFD75E1EA8ACA600F3EC26 /* GPActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFD75D1EA8ACA600F3EC26 /* GPActivityIndicatorView.xib */; };
+		3FFFD7641EA8AFDA00F3EC26 /* GPActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFD7631EA8AFDA00F3EC26 /* GPActivityIndicatorView.swift */; };
+		66AA07C51F389094001665EF /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AA07C41F389094001665EF /* PhoneNumberFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F34B5621F2627D2005AD1CB /* XMAN.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMAN.xib; sourceTree = "<group>"; };
+		3F457BFB1E94FAC9003EE759 /* GPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPViewController.swift; sourceTree = "<group>"; };
+		3F457BFD1E950D28003EE759 /* GPPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPPopupView.swift; sourceTree = "<group>"; };
+		3F49CFE91E93C9EB0023341F /* GPLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49CFEC1E93C9EB0023341F /* GPLibs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPLibs.h; sourceTree = "<group>"; };
+		3F49CFED1E93C9EB0023341F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F49CFF51E93CA240023341F /* CustomActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorView.swift; sourceTree = "<group>"; };
+		3F49CFF71E93CA240023341F /* GPAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPAnimation.swift; sourceTree = "<group>"; };
+		3F49CFF91E93CA240023341F /* GPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPButton.swift; sourceTree = "<group>"; };
+		3F49CFFA1E93CA240023341F /* GPButtonBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPButtonBase.swift; sourceTree = "<group>"; };
+		3F49CFFB1E93CA240023341F /* GPImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPImageButton.swift; sourceTree = "<group>"; };
+		3F49CFFC1E93CA240023341F /* GPLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPLoadingButton.swift; sourceTree = "<group>"; };
+		3F49CFFE1E93CA240023341F /* GPPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPPopupView.xib; sourceTree = "<group>"; };
+		3F49CFFF1E93CA240023341F /* GPPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPPopupViewController.swift; sourceTree = "<group>"; };
+		3F49D0011E93CA240023341F /* GPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPTextField.swift; sourceTree = "<group>"; };
+		3F49D0031E93CA240023341F /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		3F49D0041E93CA240023341F /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		3F49D0101E93CA5D0023341F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F5824C11E9E4A3800E8C440 /* GPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPView.swift; sourceTree = "<group>"; };
+		3F98CC921F389BCE00DEA71D /* GPTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPTextView.swift; sourceTree = "<group>"; };
+		3FB559DD1F26296A00754E60 /* GPSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSegmentedControl.swift; sourceTree = "<group>"; };
+		3FFFD75D1EA8ACA600F3EC26 /* GPActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPActivityIndicatorView.xib; sourceTree = "<group>"; };
+		3FFFD7631EA8AFDA00F3EC26 /* GPActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPActivityIndicatorView.swift; sourceTree = "<group>"; };
+		667B61331F31B36D000343DB /* PhoneNumberKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneNumberKit.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/GarentaPro-btatnhhkqjlfhweoqqboimvjxwhd/Build/Products/Debug-iphonesimulator/PhoneNumberKit/PhoneNumberKit.framework"; sourceTree = "<group>"; };
+		66AA07C41F389094001665EF /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F49CFE51E93C9EB0023341F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F457BFA1E94FAA8003EE759 /* GPViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F457BFB1E94FAC9003EE759 /* GPViewController.swift */,
+			);
+			path = GPViewController;
+			sourceTree = "<group>";
+		};
+		3F49CFDF1E93C9EB0023341F = {
+			isa = PBXGroup;
+			children = (
+				3F49CFEB1E93C9EB0023341F /* GPLibs */,
+				3F49CFEA1E93C9EB0023341F /* Products */,
+				667B61321F31B36D000343DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F49CFEA1E93C9EB0023341F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F49CFE91E93C9EB0023341F /* GPLibs.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F49CFEB1E93C9EB0023341F /* GPLibs */ = {
+			isa = PBXGroup;
+			children = (
+				3F49CFF41E93CA240023341F /* GPActivityIndicator */,
+				3F49CFF61E93CA240023341F /* GPAnimations */,
+				3F49CFF81E93CA240023341F /* GPButton */,
+				3F49CFFD1E93CA240023341F /* GPPopupView */,
+				3F49D0001E93CA240023341F /* GPTextField */,
+				3F98CC911F389BAD00DEA71D /* GPTextView */,
+				3F5824BE1E9E49AA00E8C440 /* GPView */,
+				3F457BFA1E94FAA8003EE759 /* GPViewController */,
+				3F49D0021E93CA240023341F /* Helpers */,
+				3F49D0101E93CA5D0023341F /* Assets.xcassets */,
+				3F49CFEC1E93C9EB0023341F /* GPLibs.h */,
+				3F49CFED1E93C9EB0023341F /* Info.plist */,
+				3FB559DD1F26296A00754E60 /* GPSegmentedControl.swift */,
+			);
+			path = GPLibs;
+			sourceTree = "<group>";
+		};
+		3F49CFF41E93CA240023341F /* GPActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				3F49CFF51E93CA240023341F /* CustomActivityIndicatorView.swift */,
+				3FFFD75D1EA8ACA600F3EC26 /* GPActivityIndicatorView.xib */,
+				3FFFD7631EA8AFDA00F3EC26 /* GPActivityIndicatorView.swift */,
+			);
+			path = GPActivityIndicator;
+			sourceTree = "<group>";
+		};
+		3F49CFF61E93CA240023341F /* GPAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				3F49CFF71E93CA240023341F /* GPAnimation.swift */,
+			);
+			path = GPAnimations;
+			sourceTree = "<group>";
+		};
+		3F49CFF81E93CA240023341F /* GPButton */ = {
+			isa = PBXGroup;
+			children = (
+				3F49CFF91E93CA240023341F /* GPButton.swift */,
+				3F49CFFA1E93CA240023341F /* GPButtonBase.swift */,
+				3F49CFFB1E93CA240023341F /* GPImageButton.swift */,
+				3F49CFFC1E93CA240023341F /* GPLoadingButton.swift */,
+			);
+			path = GPButton;
+			sourceTree = "<group>";
+		};
+		3F49CFFD1E93CA240023341F /* GPPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				3F34B5621F2627D2005AD1CB /* XMAN.xib */,
+				3F49CFFE1E93CA240023341F /* GPPopupView.xib */,
+				3F49CFFF1E93CA240023341F /* GPPopupViewController.swift */,
+				3F457BFD1E950D28003EE759 /* GPPopupView.swift */,
+			);
+			path = GPPopupView;
+			sourceTree = "<group>";
+		};
+		3F49D0001E93CA240023341F /* GPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3F49D0011E93CA240023341F /* GPTextField.swift */,
+			);
+			path = GPTextField;
+			sourceTree = "<group>";
+		};
+		3F49D0021E93CA240023341F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				66AA07C41F389094001665EF /* PhoneNumberFormatter.swift */,
+				3F49D0031E93CA240023341F /* UIExtensions.swift */,
+				3F49D0041E93CA240023341F /* UIHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3F5824BE1E9E49AA00E8C440 /* GPView */ = {
+			isa = PBXGroup;
+			children = (
+				3F5824C11E9E4A3800E8C440 /* GPView.swift */,
+			);
+			path = GPView;
+			sourceTree = "<group>";
+		};
+		3F98CC911F389BAD00DEA71D /* GPTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3F98CC921F389BCE00DEA71D /* GPTextView.swift */,
+			);
+			path = GPTextView;
+			sourceTree = "<group>";
+		};
+		667B61321F31B36D000343DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				667B61331F31B36D000343DB /* PhoneNumberKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F49CFE61E93C9EB0023341F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49CFEE1E93C9EB0023341F /* GPLibs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F49CFE81E93C9EB0023341F /* GPLibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F49CFF11E93C9EB0023341F /* Build configuration list for PBXNativeTarget "GPLibs" */;
+			buildPhases = (
+				3F49CFE41E93C9EB0023341F /* Sources */,
+				3F49CFE51E93C9EB0023341F /* Frameworks */,
+				3F49CFE61E93C9EB0023341F /* Headers */,
+				3F49CFE71E93C9EB0023341F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPLibs;
+			productName = GPLibs;
+			productReference = 3F49CFE91E93C9EB0023341F /* GPLibs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F49CFE01E93C9EB0023341F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mehmet Cakir";
+				TargetAttributes = {
+					3F49CFE81E93C9EB0023341F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JWNV7LRDYT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F49CFE31E93C9EB0023341F /* Build configuration list for PBXProject "GPLibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F49CFDF1E93C9EB0023341F;
+			productRefGroup = 3F49CFEA1E93C9EB0023341F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F49CFE81E93C9EB0023341F /* GPLibs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F49CFE71E93C9EB0023341F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFFD75E1EA8ACA600F3EC26 /* GPActivityIndicatorView.xib in Resources */,
+				3F34B5631F2627D2005AD1CB /* XMAN.xib in Resources */,
+				3F49D0111E93CA5D0023341F /* Assets.xcassets in Resources */,
+				3F49D00B1E93CA240023341F /* GPPopupView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F49CFE41E93C9EB0023341F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49D0051E93CA240023341F /* CustomActivityIndicatorView.swift in Sources */,
+				3F49D00A1E93CA240023341F /* GPLoadingButton.swift in Sources */,
+				3F98CC931F389BCE00DEA71D /* GPTextView.swift in Sources */,
+				3F49D0061E93CA240023341F /* GPAnimation.swift in Sources */,
+				3F49D00F1E93CA240023341F /* UIHelper.swift in Sources */,
+				3F49D00E1E93CA240023341F /* UIExtensions.swift in Sources */,
+				3F457BFC1E94FAC9003EE759 /* GPViewController.swift in Sources */,
+				3F457BFE1E950D28003EE759 /* GPPopupView.swift in Sources */,
+				3F5824C21E9E4A3800E8C440 /* GPView.swift in Sources */,
+				3FB559E01F262D1E00754E60 /* GPSegmentedControl.swift in Sources */,
+				3F49D0071E93CA240023341F /* GPButton.swift in Sources */,
+				3F49D00D1E93CA240023341F /* GPTextField.swift in Sources */,
+				3F49D0091E93CA240023341F /* GPImageButton.swift in Sources */,
+				66AA07C51F389094001665EF /* PhoneNumberFormatter.swift in Sources */,
+				3F49D00C1E93CA240023341F /* GPPopupViewController.swift in Sources */,
+				3F49D0081E93CA240023341F /* GPButtonBase.swift in Sources */,
+				3FFFD7641EA8AFDA00F3EC26 /* GPActivityIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F49CFEF1E93C9EB0023341F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F49CFF01E93C9EB0023341F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F49CFF21E93C9EB0023341F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JWNV7LRDYT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GPLibs/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMobileCode.GPLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F49CFF31E93C9EB0023341F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JWNV7LRDYT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GPLibs/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMobileCode.GPLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6621AECC20206A290044AA13 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AdHoc;
+		};
+		6621AECD20206A290044AA13 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JWNV7LRDYT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GPLibs/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMobileCode.GPLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = AdHoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F49CFE31E93C9EB0023341F /* Build configuration list for PBXProject "GPLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49CFEF1E93C9EB0023341F /* Debug */,
+				6621AECC20206A290044AA13 /* AdHoc */,
+				3F49CFF01E93C9EB0023341F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F49CFF11E93C9EB0023341F /* Build configuration list for PBXNativeTarget "GPLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49CFF21E93C9EB0023341F /* Debug */,
+				6621AECD20206A290044AA13 /* AdHoc */,
+				3F49CFF31E93C9EB0023341F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F49CFE01E93C9EB0023341F /* Project object */;
+}

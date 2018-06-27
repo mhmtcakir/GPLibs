@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="GPActivityIndicatorView" id="iN0-l3-epB" customClass="GPActivityIndicatorView" customModule="GPLibs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2C-3g-gyQ" customClass="CustomActivityIndicatorView" customModule="GPLibs" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="1py-B0-QkB"/>
+                        <constraint firstAttribute="height" constant="22" id="uM7-Rr-acC"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="image" keyPath="indicatorImage" value="ActivityIndicator"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="g2C-3g-gyQ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Mj2-5T-KuM"/>
+                <constraint firstItem="g2C-3g-gyQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="k1k-OK-kwg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="loadingIndicator" destination="g2C-3g-gyQ" id="BbR-UA-oNj"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ActivityIndicator" width="22" height="22"/>
+    </resources>
+</document>
